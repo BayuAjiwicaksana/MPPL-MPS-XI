@@ -1,21 +1,21 @@
 # Implementasi Query SQL
 
 ## Membuat Database
-Database yang akan saya buat memiliki nama **mppl_waterfall_sql**.
+Database yang akan saya buat memiliki nama **mppl_waterfall_sql**.<br>
 Query :
 ```
 mysql> CREATE DATABASE mppl_waterfall_sql;
 ```
 
 ## Membuat User Baru
-User baru yang akan saya buat memiliki *username* = **bayu**, dan *password* = **qwerty**.
+User baru yang akan saya buat memiliki *username* = **bayu**, dan *password* = **qwerty**.<br>
 Query :
 ```
 mysql> CREATE USER ‘bayu’@’localhost’ IDENTIFIED BY ‘qwerty’;
 ```
 
 ## Memberikan Hak Akses untuk Database ke User
-User **bayu** akan diberikan hak akses penuh untuk database **mppl_waterfall_sql**.
+User **bayu** akan diberikan hak akses penuh untuk database **mppl_waterfall_sql**.<br>
 Query :
 ```
 mysql> GRANT ALL PRIVILEGES ON mppl_waterfall_sql.* TO ‘bayu’@’localhost’;
